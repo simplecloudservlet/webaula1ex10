@@ -6,14 +6,20 @@ a[href *= "unicamp"]{
 }
 
 /* Expressão Regular: termina com */
-a[href ^= "html"]{
-	color: green;
+a[href $= "html"]{
+	color: rgb(3, 41, 255);
 }
 
 /* Expressão Regular: inicia com */
 a[href ^= "https:"]{
 	color: red;
 }
+
+/* TODO4 */
+/* Expressão Regular: igual a */
+/*img[src = "img/vendas.png"]{
+	background-color: rgb(0, 26, 255);
+}*/
 
 /* Expressão Regular: igual a */
 img[src = "img/vendas2.png"]{
